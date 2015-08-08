@@ -1,0 +1,346 @@
+
+body {
+    background-color: #FFFFFF;
+    font-size: "Lucida Grande", sans-serif;
+}
+
+header ul {
+    list-style: none;
+    color: #BEBEBE;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 70px;
+}
+
+header, section, footer {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header {
+    min-height: 60px;
+}
+
+header img, header ul {
+    margin: 40px 0;
+}
+
+.banner {
+    background-color: #00888F;
+    background: url('/fonts/banner.png') center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin: 0 -15px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner h4 {
+    font-size: 16px;
+    color: #696B6A;
+    font-style: italic;
+    font-family: 'Georgia' serif;
+    font-weight: 300;
+}
+
+.down-button {
+    border-radius: 100%;
+    background-color: #E9ECEA;
+    height: 80px;
+    width: 80px;
+    margin: 90px auto 0 auto; 
+}
+
+.down-button-2 {
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.down-button-2 span {
+    font-size: 1.2em;
+    line-height: 50px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 0;
+    line-height: 30px
+}
+
+section hr {
+    border: 1px solid #000000;
+    width: 200px;
+    margin: 15px auto;
+}
+
+section h4, footer h4 {
+    font-size: 16px;
+    color: #868686;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.42;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact h4 {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.team {
+    background-color: #F3F3F3;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.project-pillter { 
+    background: url(/images/projects-pillter-1.png) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    min-width: 250px;
+}
+
+.project-pillter:hover, .project-pilter:focus, .project-pillter:active {
+    background: url(images/projects-pillter-2.png) center no-repeat;
+    background-size: cover;
+}
+
+
+.hvr-fade {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      overflow: hidden;
+      -webkit-transition-duration: 1.8s;
+      transition-duration: 1.8s;
+      -webkit-transition-property: color, background-color;
+      transition-property: color, background-color;
+    }
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+      background-color: #2098d1;
+      color: white;
+}
+.project-touch {
+    background: url(/images/projects-touch-1.png) center no-repeat;
+    
+}
+
+.project-touch:hover {
+    background: url(/images/projects-touch-2.png) center no-repeat;
+    background-size: cover;
+}
+
+.project-locate {
+    background: url(/images/projects-locate-1.png) center no-repeat;
+}
+
+.project-locate:hover {
+    background: url(/images/projects-locate-2.png) center no-repeat;
+    background-size: cover;
+}
+
+.project-umberapp {
+    background: url(/images/projects-umberapp-1.png) center  no-repeat;
+}
+
+
+.project-umberapp:hover, .project-umberapp:focus, .project-umberapp:active {
+    background: url(images/projects-umberapp-2.png) center no-repeat;
+    background-size: cover;
+}
+
+.project-hippo {
+    background: url(/images/projects-hippo-1.png) center top no-repeat;
+}
+
+
+.project-hippo:hover {
+    background: url(/images/projects-hippo-2.png)center top no-repeat;
+    background-size: cover;
+}
+
+.project-pardio {
+    background: url(/images/projects-pardio-1.png) center top no-repeat;
+}
+
+.project-pardio:hover {
+    background: url(/images/projects-pardio-2.png)center top no-repeat;
+    background-size: cover;
+}
+
+.project-panad {
+    background: url(/images/projects-panad-1.png) center top no-repeat;
+}
+
+.project-panad:hover {
+    background: url(/images/projects-panad-2.png)center top no-repeat;
+    background-size: cover;
+}
+
+.project-bizcorner {
+    background: url(/images/projects-bizcorner-1.png) center top no-repeat;
+}
+
+.project-bizcorner:hover {
+    background: url(/images/projects-bizcorner-2.png)center top no-repeat;
+    background-size: cover;
+}
+
+.project-arabut {
+    background: url(/images/projects-arabut-1.png) center top no-repeat;
+}
+
+.project-arabut:hover {
+    background: url(/images/projects-arabut-2.png)center top no-repeat;
+    background-size: cover;
+}
+
+.worker {
+    height: 260px;
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 60px auto 80px auto;
+}
+
+.worker-pic {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.pic-1 {
+    background: url(/images/worker-1.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+.pic-2 {
+    background: url(/images/worker-2.png) center top no-repeat;
+    background-size: cover;
+}
+
+.pic-3 {
+    background: url(/images/worker-3.png) center top no-repeat;
+    background-size: cover;
+}
+
+.pic-4 {
+    background: url(/images/worker-4.png) center no-repeat;
+    background-size: cover;
+}
+
+.team ul {
+   list-style: none; 
+    text-align: center;
+    padding: 0;
+}
+
+.team ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.team h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team h5 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    color: #868686;
+}
+
+.project {
+    margin: 20px auto;
+    background-size: cover;
+    height: 250px;
+    width: auto;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.form-control {
+    border-radius: 0;
+    background-color: #F2F2F2;
+    border-color: #FFFFFF;
+    box-shadow: none;
+    webkit-box-shadow: none;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #828282;
+    font-size: 16px;
+}
+
+.email-form {
+    height: auto;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.btn {
+    border-radius: 0;
+    background-color: #5D96AB !important;
+    box-shadow: none;
+    webkit-box-shadow: none;
+    background-image: none;
+    text-shadow: none;
+    color: #FFFFFF;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn span {
+    line-height: 24px;
+    padding: 0 10px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #BEBEBE;
+}
+
+a:hover {
+    text-decoration: none;
+    color: none;
+}
+
+footer {
+    margin: 40px 0 20px 0;
+}
+footer h4 {
+    text-align: left;
+    display: inline-block;
+}
+
+footer h4:last-child {
+    float: right;
+}
