@@ -29,7 +29,7 @@ header img, header ul {
 
 .banner {
     background-color: #00888F;
-    background: url('/fonts/banner.png') center no-repeat;
+    background: url('./fonts/banner.png') center no-repeat;
     background-size: cover;
     min-height: 300px;
     margin: 0 -15px;
@@ -112,109 +112,89 @@ section h4, footer h4 {
 }
 
 .project-pillter { 
-    background: url(/images/projects-pillter-1.png) center no-repeat;
+    background: url(./images/projects-pillter-1.png) center no-repeat;
     background-size: cover;
     height: 200px;
     min-width: 250px;
 }
 
 .project-pillter:hover, .project-pilter:focus, .project-pillter:active {
-    background: url(images/projects-pillter-2.png) center no-repeat;
+    background: url(./images/projects-pillter-2.png) center no-repeat;
     background-size: cover;
 }
 
-
-.hvr-fade {
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -moz-osx-font-smoothing: grayscale;
-      overflow: hidden;
-      -webkit-transition-duration: 1.8s;
-      transition-duration: 1.8s;
-      -webkit-transition-property: color, background-color;
-      transition-property: color, background-color;
-    }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-      background-color: #2098d1;
-      color: white;
 }
 .project-touch {
-    background: url(/images/projects-touch-1.png) center no-repeat;
-    
+    background: url(./images/projects-touch-1.png) center no-repeat;
 }
 
 .project-touch:hover {
-    background: url(/images/projects-touch-2.png) center no-repeat;
+    background: url(./images/projects-touch-2.png) center no-repeat;
     background-size: cover;
 }
 
 .project-locate {
-    background: url(/images/projects-locate-1.png) center no-repeat;
+    background: url(./images/projects-locate-1.png) center no-repeat;
 }
 
 .project-locate:hover {
-    background: url(/images/projects-locate-2.png) center no-repeat;
+    background: url(./images/projects-locate-2.png) center no-repeat;
     background-size: cover;
 }
 
 .project-umberapp {
-    background: url(/images/projects-umberapp-1.png) center  no-repeat;
+    background: url(./images/projects-umberapp-1.png) center  no-repeat;
 }
 
 
 .project-umberapp:hover, .project-umberapp:focus, .project-umberapp:active {
-    background: url(images/projects-umberapp-2.png) center no-repeat;
+    background: url(./images/projects-umberapp-2.png) center no-repeat;
     background-size: cover;
 }
 
 .project-hippo {
-    background: url(/images/projects-hippo-1.png) center top no-repeat;
+    background: url(./images/projects-hippo-1.png) center top no-repeat;
 }
 
 
 .project-hippo:hover {
-    background: url(/images/projects-hippo-2.png)center top no-repeat;
+    background: url(./images/projects-hippo-2.png)center top no-repeat;
     background-size: cover;
 }
 
 .project-pardio {
-    background: url(/images/projects-pardio-1.png) center top no-repeat;
+    background: url(./images/projects-pardio-1.png) center top no-repeat;
 }
 
 .project-pardio:hover {
-    background: url(/images/projects-pardio-2.png)center top no-repeat;
+    background: url(./images/projects-pardio-2.png)center top no-repeat;
     background-size: cover;
 }
 
 .project-panad {
-    background: url(/images/projects-panad-1.png) center top no-repeat;
+    background: url(./images/projects-panad-1.png) center top no-repeat;
 }
 
 .project-panad:hover {
-    background: url(/images/projects-panad-2.png)center top no-repeat;
+    background: url(./images/projects-panad-2.png)center top no-repeat;
     background-size: cover;
 }
 
 .project-bizcorner {
-    background: url(/images/projects-bizcorner-1.png) center top no-repeat;
+    background: url(./images/projects-bizcorner-1.png) center top no-repeat;
 }
 
 .project-bizcorner:hover {
-    background: url(/images/projects-bizcorner-2.png)center top no-repeat;
+    background: url(./images/projects-bizcorner-2.png)center top no-repeat;
     background-size: cover;
 }
 
 .project-arabut {
-    background: url(/images/projects-arabut-1.png) center top no-repeat;
+    background: url(./images/projects-arabut-1.png) center top no-repeat;
 }
 
 .project-arabut:hover {
-    background: url(/images/projects-arabut-2.png)center top no-repeat;
+    background: url(./images/projects-arabut-2.png)center top no-repeat;
     background-size: cover;
 }
 
@@ -233,23 +213,23 @@ section h4, footer h4 {
 }
 
 .pic-1 {
-    background: url(/images/worker-1.png) center no-repeat;
+    background: url(./images/worker-1.png) center no-repeat;
     background-size: cover;
     
 }
 
 .pic-2 {
-    background: url(/images/worker-2.png) center top no-repeat;
+    background: url(./images/worker-2.png) center top no-repeat;
     background-size: cover;
 }
 
 .pic-3 {
-    background: url(/images/worker-3.png) center top no-repeat;
+    background: url(./images/worker-3.png) center top no-repeat;
     background-size: cover;
 }
 
 .pic-4 {
-    background: url(/images/worker-4.png) center no-repeat;
+    background: url(./images/worker-4.png) center no-repeat;
     background-size: cover;
 }
 
