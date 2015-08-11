@@ -123,16 +123,6 @@ section h4, footer h4 {
     background-size: cover;
 }
 
-}
-.project-touch {
-    background: url(./images/projects-touch-1.png) center no-repeat;
-}
-
-.project-touch:hover {
-    background: url(./images/projects-touch-2.png) center no-repeat;
-    background-size: cover;
-}
-
 .project-locate {
     background: url(./images/projects-locate-1.png) center no-repeat;
 }
